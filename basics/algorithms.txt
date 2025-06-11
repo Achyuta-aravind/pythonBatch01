@@ -1,0 +1,15 @@
+Algorithm Definition: It's a step by step process to complete the actual task
+Daily routine:
+    6:50 AM -
+    7:00 AM -
+    8:15 AM
+    9:00 AM -
+
+Data structures
+
+    - posts [Image, video Data ]
+
+- Lists
+
+# Linear search algorithm
+

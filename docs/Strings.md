@@ -125,6 +125,24 @@ for char in "Python":
 	path = r"C:\Users\Name\Folder"
 ```
 
+| Type     | Mutable  | Immutable|
+|----------|----------|----------|
+| int      | No       | Yes      |
+| float    | No       | yes      |
+| Complex  | No       | yes      |
+| Bool     | No       | yes      |
+| Str      | No       | yes      |
+| List     | Yes      | No       |
+| tuple    | No       | yes      |
+| set      | Yes      | No       |
+| frozenset| No       | yes      |
+| dict     | Yes      | No       |
+| bytes    | No       | yes      |
+| bytearray| Yes      | No       |
+| NoneType | No       | yes      |
+| Custom   | depends  | depends  |
+
+
 ---
 
 ## Finally

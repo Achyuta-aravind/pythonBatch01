@@ -41,7 +41,39 @@ print(x)
 # same memory
 x = 10
 y = 10
+#print memory address
 print(id(x),id(y))
 z = 10
 print(id(z))
 
+# built-in functions
+# doing some task
+
+
+# type conversion, you convert one data type into another
+# datatype
+gh = 89
+print(gh)
+print(type(gh))
+print(float(gh)) # integer to float
+
+flo = 3.14
+print(int(flo)) # float into integer
+
+e = 1789
+print(e)
+print(bin(e))
+print(hex(e)) # 0-9 + a-f
+print(oct(e)) # upto 7, 0-7
+
+#var_name = data
+account_num = 106749
+account_balance = 12300.67
+print(type(account_num),type(account_balance))
+
+
+# Immutability
+a = 168
+print(id(a))
+a = 169
+print(id(a))

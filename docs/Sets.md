@@ -90,28 +90,23 @@ print(b.issuperset(a))   # True
 ```
 Immutable version of a set:
 frozen = frozenset([1, 2, 3])
-
 # frozen.add(4)  # Error!
+```
+
 📘 Real-World Use Cases
+
+```
 1. Removing duplicates from a list
-python
-Copy
-Edit
 emails = ["a@example.com", "b@example.com", "a@example.com"]
 unique_emails = set(emails)  # {'a@example.com', 'b@example.com'}
 2. Comparing users' preferences
-python
-Copy
-Edit
 likes_tea = {"Alice", "Bob"}
 likes_coffee = {"Bob", "Charlie"}
-
 print(likes_tea & likes_coffee)  # {'Bob'}
+```
+
 🎯 When to Use Sets
 When you need unique items
-
 When performing mathematical set operations
-
 When checking membership efficiently (faster than lists)
-
 ✅ Sets are fast, simple, and perfect for many real-world tasks involving unique data or comparisons.

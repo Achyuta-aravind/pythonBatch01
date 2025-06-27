@@ -8,6 +8,8 @@ empty_set = set()
 my_set = {1, 2, 3, 4} # will not have the fixed memory space at run time
 print(my_set)
 #print(my_set[0])
+fs = fronzenset(my_set)
+print(type(fs))
 
 
 # From a list
@@ -42,3 +44,4 @@ print(fruits)
 
 fruits.discard('orange')
 print(fruits)
+
